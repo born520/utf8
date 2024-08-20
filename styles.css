@@ -1,0 +1,20 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; /* 모바일 화면에 맞추기 위해 너비를 조정 */
+}
+
+th, td {
+    text-align: center; /* 표의 내용을 가운데 정렬 */
+    padding: 8px; /* 표의 셀에 여백 추가 */
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%; /* 작은 화면에서는 표를 전체 너비로 설정 */
+    }
+
+    th, td {
+        font-size: 14px; /* 작은 화면에서는 글자 크기 조정 */
+    }
+}
